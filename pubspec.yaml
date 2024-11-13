@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_animated_button: ^2.0.3
+  loading_btn: ^1.0.3
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +19,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets: 
+    - assets/home/background.jpeg
+    - assets/home/logo.jpeg
